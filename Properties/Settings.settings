@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="gTalkRobotController.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="failedToSendMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Magabot didn't hear you... 
+It isn't connected yet.</Value>
+    </Setting>
+    <Setting Name="welcomeMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hello!  
+Please wait until we give you the control of the robot.</Value>
+    </Setting>
+    <Setting Name="waitMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">You're not controlling Magabot yet. 
+Wait for you turn...</Value>
+    </Setting>
+    <Setting Name="controllerMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hurray!!! 
+Magabot is now under your command. 
+Remember: 
+- '1' to Assisted Navigation    
+  - 'w' to go forward 
+  - 's' to go backward
+  - 'a' to go left
+  - 'd' to go right
+  - 'p' to stop
+- '2' to Obstacle Avoidance</Value>
+    </Setting>
+    <Setting Name="bumperMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please don't hurt me!!
+ - I've bumped against something.</Value>
+    </Setting>
+    <Setting Name="holeMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please don't hurt me!!
+ - I've just detected a hole in the ground.</Value>
+    </Setting>
+    <Setting Name="email" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
